@@ -32,11 +32,23 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_native_splash: ^1.2.1
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#000000"
+  image: assets/images/splash.png
+  image_dark: assets/images/splash.png
+  android_gravity: center
+  ios_content_mode: center
+  fullscreen: true
+
+
 flutter:
 
   # The following line ensures that the Material Icons font is
